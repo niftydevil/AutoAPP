@@ -31,8 +31,8 @@ time.sleep(1)
 # 选择密码登录
 driver.find_element_by_id('switchControl').click()
 # 输入手机号和验证码
-driver.find_element_by_id('phone_et').send_keys('13120200909')
-driver.find_element_by_id('password_et').send_keys('123456')
+driver.find_element_by_id('phone_et').send_keys('')
+driver.find_element_by_id('password_et').send_keys('')
 driver.find_element_by_id('login_commit').click()
 time.sleep(5)
 
